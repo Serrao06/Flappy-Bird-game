@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First tutorial</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Pixelify Sans', sans-serif;
+        }
+        #gameOver {
+            position: absolute;
+            width: 250px;
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            top: calc(100vh / 2 - 50px);
+            left: calc(100vw / 2 - 250px / 2);
+        }
+        #gameOver span {
+            font-size: 25px;
+        }
+ 
+    </style>
+    
+    <div id="gameOver">
+        <h1>Game Over</h1>
+        <span id="score">Score: </span>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
